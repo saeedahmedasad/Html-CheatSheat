@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    background-color: beige;
+    font-weight: bold ;
+    line-height: 1.6em;
+}
+.container{
+    width: 500px;
+    margin: auto;
+}
+.box-1{
+    /* margin: 0; */
+    /* margin-inline: 1rem; to give margin only to left and right */
+    /* margin-block: 6rem; */
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    border: 5px solid red;
+    padding-top: 20px;
+    margin-top: 20px;
+
+    box-shadow: 10px 10px 100px rgb(0, 0, 0);
+}
+
+.box-1 p a{
+    text-decoration: none;
+    color: white;
+}
+.box-1 p a:hover{
+    color: red;
+}
